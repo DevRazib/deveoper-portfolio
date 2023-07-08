@@ -63,7 +63,9 @@ nav a{
 /* header related style  */
 .header{
   background: #FFF8F3;
-  background: url(../images/header_bg.png) no-repeat bottom right;
+  background: url('../images/header_bg.png'),url('../images/developer.png');
+  background-position: bottom right, top left;
+  background-repeat: no-repeat;
 }
 .banner{
   padding: 30px 30px 0 150px;
