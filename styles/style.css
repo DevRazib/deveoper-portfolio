@@ -169,4 +169,24 @@ footer{
   background: #FFF8F3;
   padding: 130px 200px;
   margin-top: 100px;
+  gap: 100px;
+}
+.footer-column{
+  width: 50%;
+}
+.social-links a{
+  margin-right: 24px;
+}
+.contact input[type='text'],
+.contact input[type='email'], textarea{
+  display: block;
+  margin-bottom: 25px;
+  padding: 18px 35px;
+  color:#757575;
+  background: #fff;
+  width: 100%;
+  border:0;
+}
+.contact input:focus, textarea:focus{
+  outline:none;
 }
